@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 450px 2fr 2fr 2fr;
+    grid-template-rows:340px 340px 340px;
+    background-image: url(./multimedia/img-fondo.jpg);
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 20px;
+    text-align: justify;
+} 
+ .grid-container .item1{
+    background-color: #00fd221a;
+    padding-left: 5px;
+    padding-right: 8px;
+    grid-column: 0 / 2;
+    margin-right: 10px;
+    grid-row: span 3;
+    height: 100%;
+    color: rgb(253, 253, 253);
+  }
+  
+  h1{
+      position: relative;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 50px;
+  }
+
+  .logo{
+      height: 250px;
+      position: relative;
+      left: 18%;
+  }
+
+  .img_equipo{
+      width: 250px;
+      border-radius: 10px;
+      border: 2px solid black;
+      position: relative;
+      left: 15%;
+      top: 5%;
+  }
+  .img_equipo:hover{
+    width: 260px;
+    box-shadow: 3px 3px 3px gainsboro;
+}
+
+
+.grid-container  .widget-1,
+.grid-container  .widget-2,
+.grid-container  .widget-3,
+.grid-container  .widget-4,
+.grid-container  .widget-5,
+.grid-container  .widget-6,
+.grid-container  .widget-7,
+.grid-container  .widget-8 {
+	background: #a5ffb162;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	display: flex;
+   
+	align-items:flex-end;
+	justify-content: center;
+}
+
+
+.grid-container  .widget-1{
+    background-image: url(./multimedia/people-PhotoRoom.png);
+    background-size:auto 200px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    font-weight: bold;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-1:hover{
+    background-size: auto 250px;
+    opacity: 1;
+}
+
+
+.grid-container  .widget-2{
+    background-image: url(./multimedia/research.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-2:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+
+.grid-container  .widget-3{
+    background-image: url(./multimedia/projects.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-3:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+
+.grid-container  .widget-4{
+    background-image: url(./multimedia/conferences.jpg);
+    background-size:auto 300px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-4:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+
+.grid-container  .widget-5{
+    background-image: url(./multimedia/books.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-5:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+
+.grid-container  .widget-6{
+    background-image: url(./multimedia/software.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-6:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+.grid-container  .widget-7{
+    background-image: url(./multimedia/twitter-menu.png);
+    background-size:auto 300px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+    background-position: center;
+}
+
+.grid-container  .widget-7:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    background-position: center;
+    color: black;
+}
+
+.grid-container  .widget-8{
+    background-image: url(./multimedia/contacto.png);
+    background-position: center;
+    background-size:auto 300px;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    text-shadow:2px 2px rgb(156, 156, 156);
+    text-transform: uppercase;
+}
+
+.grid-container  .widget-8:hover{
+    background-size: auto 350px;
+    opacity: 1;
+    color: black;
+}
+
+.arreglo{
+    grid-column: span 3;
+    display: grid;
+    gap: 10px;
+    grid-template-rows:340px 340px;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(./multimedia/img-fondo.jpg);
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
